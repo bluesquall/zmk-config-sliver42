@@ -1,0 +1,6 @@
+if SHIELD_SLIVER42
+
+config ZMK_KEYBOARD_NAME
+    default "sliver42"
+
+endif
