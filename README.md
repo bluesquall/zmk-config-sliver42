@@ -10,8 +10,21 @@ _____________
 Follow along with [this video by Joe Scotto][yt-scotto-zmk],
 and refer to the [New Keyboard Shield][zmk-new-shield] section of the ZMK docs.
 _____________
+Keymap inspired by:
+
+- [default OLKB Planck][olkb-planck-default]
+- [miryoku][gh-miryoku-zmk]
+- [Programming On 34 Keys][peppers-34]
+- [Knucklehead][gh-minusfive-knucklehead]
+_____________
 _____________
 [yt-scotto-zmk]: https://youtu.be/O_urj-rF3bQ
 [zmk-new-shield]: https://zmk.dev/docs/development/new-shield
 [keymap-drawer]: https://github.com/caksoylar/keymap-drawer
 [keymap-editor]: https://github.com/nickcoutsos/keymap-editor
+
+[olkb-planck-default]: https://qmk.fm/keyboards/planck/keymap-printout-default-qwerty.pdf
+[peppers-34]: https://peppe.rs/posts/programming_on_34_keys/
+[gh-miryoku-zmk]: https://github.com/manna-harbour/miryoku_zmk
+[gh-minusfive-knucklehead]: https://github.com/minusfive/zmk-config
+
