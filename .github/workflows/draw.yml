@@ -9,7 +9,7 @@ on:
       - 'config/*.dtsi'
       - 'config/*.json'
       - 'keymap_drawer.config.yaml'
-      - '.github/workflows/draw-keymaps.yml'
+      - '.github/workflows/draw.yml'
       - 'config/boards/*/*/*.keymap'
 
 jobs:
