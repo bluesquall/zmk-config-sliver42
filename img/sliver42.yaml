@@ -1,5 +1,5 @@
 layers:
-  ALFA:
+  '0':
   - LEFT GUI
   - Q
   - W
@@ -37,12 +37,12 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - ENTER
   - LCTRL
-  - {t: TAB, h: BT}
-  - {t: SPACE, h: NUMR}
-  - {t: ENTER, h: NUMR}
-  - {t: BACKSPACE, h: BT}
+  - {t: TAB, h: '2'}
+  - {t: SPACE, h: '1'}
+  - {t: ENTER, h: '1'}
+  - {t: BACKSPACE, h: '2'}
   - RCTRL
-  NUMR:
+  '1':
   - '`'
   - '1'
   - '2'
@@ -82,10 +82,10 @@ layers:
   - LCTRL
   - LGUI
   - {t: SPACE, type: held}
-  - {t: ALFA, h: toggle}
-  - BT
+  - {t: '0', h: toggle}
+  - '2'
   - RCTRL
-  BT:
+  '2':
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -125,6 +125,6 @@ layers:
   - '&sys_reset'
   - {type: held}
   - ''
-  - {t: ALFA, h: toggle}
+  - {t: '0', h: toggle}
   - ''
   - ''
