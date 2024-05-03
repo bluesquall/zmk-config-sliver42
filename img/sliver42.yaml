@@ -1,5 +1,5 @@
 layers:
-  '0':
+  alfa:
   - LEFT GUI
   - Q
   - W
@@ -37,12 +37,12 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - ENTER
   - LCTRL
-  - {t: TAB, h: '2'}
-  - {t: SPACE, h: '1'}
-  - {t: ENTER, h: '4'}
-  - {t: BACKSPACE, h: '3'}
+  - {t: TAB, h: sym}
+  - {t: SPACE, h: nav}
+  - {t: ENTER, h: numpad}
+  - {t: BACKSPACE, h: numrow}
   - RCTRL
-  '1':
+  nav:
   - ''
   - ''
   - ''
@@ -85,7 +85,7 @@ layers:
   - ''
   - ''
   - ''
-  '2':
+  sym:
   - ''
   - ''
   - ''
@@ -128,7 +128,7 @@ layers:
   - ''
   - ''
   - ''
-  '3':
+  numrow:
   - '`'
   - '1'
   - '2'
@@ -168,10 +168,10 @@ layers:
   - LCTRL
   - LGUI
   - SPACE
-  - {t: '0', h: toggle}
-  - {t: '5', type: held}
+  - {t: alfa, h: toggle}
+  - {t: Harald, type: held}
   - RCTRL
-  '4':
+  numpad:
   - '0'
   - '9'
   - '8'
@@ -214,7 +214,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  '5':
+  Harald:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -254,7 +254,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: '0', h: toggle}
+  - {t: alfa, h: toggle}
   - {type: held}
   - ''
   '8': ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
