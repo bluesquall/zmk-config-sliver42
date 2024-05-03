@@ -13,3 +13,5 @@ _____________
 _____________
 [yt-scotto-zmk]: https://youtu.be/O_urj-rF3bQ
 [zmk-new-shield]: https://zmk.dev/docs/development/new-shield
+[keymap-drawer]: https://github.com/caksoylar/keymap-drawer
+[keymap-editor]: https://github.com/nickcoutsos/keymap-editor
