@@ -6,7 +6,7 @@
 Follow along with [this video by Joe Scotto][yt-scotto-zmk],
 and refer to the [New Keyboard Shield][zmk-new-shield] section of the ZMK docs.
 
-![sliver42 keymap drawn as SVG](img/sliver42.svg)
+[![sliver42 keymap drawn as SVG](https://github.com/bluesquall/zmk-config-sliver42/img/sliver42.svg)](https://github.com/bluesquall/zmk-config-sliver42/raw/main/img/sliver42.svg)
 
 > Drawn with [Keymap Drawer](/caksoylar/keymap-drawer)
 _____________
