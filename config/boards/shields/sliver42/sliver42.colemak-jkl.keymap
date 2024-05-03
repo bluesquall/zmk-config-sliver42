@@ -68,7 +68,7 @@
             >;
         };
 
-        L_NULL {
+        null {
             bindings = <
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
