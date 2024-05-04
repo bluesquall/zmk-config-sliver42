@@ -1,40 +1,81 @@
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
 
-#define DEFAULT  0
-#define NUM_MODS 1
-#define BT_CTRL  2
+#define L_ALFA 0
+#define L_NAV 1
+#define L_SYM 2 
+#define L_NUMR 3
+#define L_NUMP 4
+#define L_BTCT 5
+#define L_NULL 8
 
 / {
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        alfa {
             bindings = <
-    &kp TAB   &kp Q     &kp W    &kp E     &kp R       &kp T      &kp Y     &kp U        &kp I     &kp O     &kp P    &kp BSPC
-    &kp ESC   &kp A     &kp S    &kp D     &kp F       &kp G      &kp H     &kp J        &kp K     &kp L     &kp SEMI &kp SQT
-    &kp LSHFT &kp Z     &kp X    &kp C     &kp V       &kp B      &kp N     &kp M        &kp COMMA &kp DOT   &kp FSLH &kp ENTER
-                                 &kp LCTRL &kp LGUI    &kp SPACE  &kp SPACE &to NUM_MODS &kp RCTRL
+    &kp LEFT_GUI  &kp Q     &kp W   &kp E     &kp R       &kp T      &kp Y     &kp U        &kp I     &kp O     &kp P    &kp BSPC
+    &kp ESC       &kp A             &kp S    &kp D     &kp F       &kp G      &kp H     &kp J        &kp K     &kp L     &kp SEMI  &kp SQT
+    &kp LSHFT     &mt LEFT_SHIFT Z  &kp X    &kp C     &kp V       &kp B      &kp N     &kp M        &kp COMMA &kp DOT   &mt RIGHT_SHIFT SLASH &kp ENTER
+                                       &kp LCTRL  &lt L_SYM TAB  &lt L_NAV SPACE  &lt L_NUMP ENTER  &lt L_NUMR BSPC  &kp RCTRL
             >;
         };
 
-        num_mods {
+        nav {
             bindings = <
-    &kp GRAVE &kp N1    &kp N2   &kp N3    &kp N4      &kp N5     &kp N6      &kp N7      &kp N8    &kp N9    &kp N0   &kp DEL
-    &kp ESC   &kp F1    &kp F2   &kp F3    &kp F4      &kp F5     &kp LEFT    &kp DOWN    &kp UP    &kp RIGHT &kp LBKT &kp RBKT
-    &kp LSHFT &kp F6    &kp F7   &kp F8    &kp F9      &kp F10    &kp HOME    &kp PG_DN   &kp PG_DN &kp END   &kp F11  &kp F12
-                                 &kp LCTRL &kp LGUI    &kp SPACE  &to DEFAULT &mo BT_CTRL &kp RCTRL
+&none  &kp HOME  &kp END   &kp PG_DN  &kp PG_UP  &none   &none      &kp LBRC  &kp RBRC  &kp LPAR   &kp RPAR  &none
+&none  &none     &kp LEFT  &kp UP     &kp RIGHT  &none   &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &none     &none
+&none  &none     &none     &kp DOWN   &none      &none   &kp LBKT   &kp RBKT  &kp LT    &kp GT     &none     &none
+                           &none      &none      &trans  &kp ENTER  &kp BSPC  &none
             >;
         };
 
-        bt_control {
+        sym {
             bindings = <
-    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans    &trans    &trans     &trans     &bt BT_PRV &bt BT_NXT
-    &trans     &trans       &trans       &trans       &trans       &trans       &trans    &trans    &trans     &trans     &trans   &trans
-    &trans     &trans       &trans       &trans       &trans       &trans       &trans    &trans    &trans     &trans     &trans   &trans
-                                         &sys_reset   &trans       &trans       &trans    &trans    &trans
+&kp TILDE  &kp EXCL  &kp AT  &kp HASH   &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &kp  BSPC
+&none  &none  &none  &none  &none   &none  &none  &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE
+&none  &none  &none  &none  &none   &none  &kp LBKT  &kp RBKT  &kp LT    &kp GT     &kp QMARK     &none
+                     &none  &trans  &none  &none  &none  &none
             >;
         };
+
+        numrow {
+            bindings = <
+&kp GRAVE  &kp N1  &kp N2  &kp N3     &kp N4   &kp N5   &kp N6      &kp N7     &kp N8      &kp N9    &kp N0    &kp BSPC
+&kp ESC    &kp F1  &kp F2  &kp F3     &kp F4   &kp F5   &kp F6      &kp MINUS  &kp EQUAL   &kp LBKT  &kp RBKT  &kp BACKSLASH
+&kp LSHFT  &kp F7  &kp F8  &kp F9     &kp F10  &kp F11  &kp F12     &none      &none       &none     &none     &none
+                           &none      &none    &none    &none       &trans     &mo L_BTCT
+            >;
+        };
+
+        numpad {
+            bindings = <
+&kp KP_N0  &kp KP_N9  &kp KP_N8  &kp KP_N7  &none      &none  &kp KP_PLUS   &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_N0        &kp BSPC
+&none      &kp KP_N6  &kp KP_N5  &kp KP_N4  &none      &none  &kp KP_MINUS  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MULTIPLY  &kp KP_EQUAL
+&none      &kp KP_N3  &kp KP_N2  &kp KP_N1  &kp KP_N0  &none  &kp KP_N0     &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DIVIDE    &kp ENTER
+                              &none         &none      &none  &trans        &none      &none
+            >;
+        };
+
+        bt {
+            bindings = <
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none  &none  &none  &none  &bt BT_PRV  &bt BT_NXT
+&sys_reset  &none         &none         &none         &none         &none         &none  &none  &none  &none  &none       &none
+&none       &none         &none         &none         &none         &none         &none  &none  &none  &none  &none       &none
+                                        &none         &none         &none         &none  &none  &none
+            >;
+        };
+
+        null {
+            bindings = <
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+                     &none  &none  &none  &none  &none  &none
+            >;
+        };
+
     };
 };
