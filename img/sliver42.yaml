@@ -3,35 +3,35 @@ layers:
   - LEFT GUI
   - Q
   - W
-  - F
-  - P
-  - B
-  - J
-  - K
-  - L
+  - E
+  - R
+  - T
   - Y
-  - ''''
+  - U
+  - I
+  - O
+  - P
   - BSPC
   - ESC
   - A
-  - R
   - S
-  - T
+  - D
+  - F
   - G
-  - M
-  - N
-  - E
-  - I
-  - O
-  - '-'
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
   - LSHFT
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
-  - D
   - V
-  - U
-  - H
+  - B
+  - N
+  - M
   - ','
   - .
   - {t: /, h: RIGHT SHIFT}
@@ -40,7 +40,7 @@ layers:
   - {t: TAB, h: sym}
   - {t: SPACE, h: nav}
   - {t: ENTER, h: numpad}
-  - {t: BACKSPACE, h: numrow}
+  - {t: BSPC, h: numrow}
   - RCTRL
   nav:
   - ''
@@ -140,7 +140,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BACKSPACE
+  - BSPC
   - ESC
   - F1
   - F2
