@@ -147,30 +147,30 @@ layers:
   - F3
   - F4
   - F5
-  - ''
-  - ''
-  - ''
+  - F6
+  - '-'
+  - '='
   - '['
   - ']'
   - \
   - LSHFT
-  - F6
   - F7
   - F8
   - F9
   - F10
+  - F11
+  - F12
   - Harald
   - ''
   - ''
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
+  - ''
   numpad:
   - KP 0
   - KP 9
@@ -245,8 +245,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - ''
   - ''
