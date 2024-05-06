@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: planck/rev6, qmk_layout: LAYOUT_ortho_4x12}
 layers:
-  default:
-  - TAB
+  alfa:
+  - LEFT GUI
   - Q
   - W
   - E
@@ -26,7 +26,7 @@ layers:
   - ;
   - ''''
   - LSHFT
-  - Z
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -35,70 +35,119 @@ layers:
   - M
   - ','
   - .
-  - /
-  - RET
-  - {t: ▽, type: trans}
-  - LCTL
-  - LALT
-  - LGUI
-  - lower
-  - {t: ▽, type: trans}
-  - SPACE
-  - raise
+  - {t: /, h: RIGHT SHIFT}
+  - ENTER
+  - ''
+  - ''
+  - ''
+  - LCTRL
+  - {t: TAB, h: sym}
+  - {t: SPACE, h: nav}
+  - {t: ENTER, h: numpad}
+  - {t: BSPC, h: numrow}
+  - RCTRL
+  - ''
+  - ''
+  - ''
+  nav:
+  - ''
+  - HOME
+  - END
+  - PG DN
+  - PG UP
+  - ''
+  - ''
+  - '{'
+  - '}'
+  - (
+  - )
+  - ''
+  - ''
+  - ESC
+  - LEFT
+  - UP
+  - RIGHT
+  - ''
   - LEFT
   - DOWN
   - UP
   - RIGHT
-  lower:
-  - Sft+ `
-  - Sft+ 1
-  - Sft+ 2
-  - Sft+ 3
-  - Sft+ 4
-  - Sft+ 5
-  - Sft+ 6
-  - Sft+ 7
-  - Sft+ 8
-  - Sft+ 9
-  - Sft+ 0
-  - DEL
-  - DEL
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - DOWN
+  - ''
+  - ''
+  - '['
+  - ']'
+  - <
+  - '>'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ENTER
+  - BSPC
+  - ''
+  - ''
+  - ''
+  - ''
+  sym:
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - BSPC
+  - ''
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
+  - Ctl+ Y
+  - ''
   - _
   - +
   - '{'
   - '}'
   - '|'
-  - {t: ▽, type: trans}
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
-  - 'Sft+ #'
-  - Sft+ \
-  - HOME
-  - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&sys_reset'
+  - ''
+  - ''
+  - Ctl+Sft+ C
+  - Ctl+Sft+ V
+  - ''
+  - '['
+  - ']'
+  - <
+  - '>'
+  - '?'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - NEXT
-  - VOL DN
-  - VOL UP
-  - PP
-  raise:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  numrow:
   - '`'
   - '1'
   - '2'
@@ -111,7 +160,7 @@ layers:
   - '9'
   - '0'
   - BSPC
-  - DEL
+  - ESC
   - F1
   - F2
   - F3
@@ -123,27 +172,78 @@ layers:
   - '['
   - ']'
   - \
-  - {t: ▽, type: trans}
+  - LSHFT
   - F7
   - F8
   - F9
   - F10
   - F11
   - F12
-  - '#'
-  - \
-  - PG UP
-  - PG DN
-  - {t: ▽, type: trans}
-  - '&sys_reset'
-  - '&bootloader'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - NEXT
-  - VOL DN
-  - VOL UP
-  - PP
+  - ''
+  - ''
+  - ''
+  - ''
+  numpad:
+  - KP 0
+  - KP 9
+  - KP 8
+  - KP 7
+  - ''
+  - ''
+  - KP PLUS
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP 0
+  - BSPC
+  - ''
+  - KP 6
+  - KP 5
+  - KP 4
+  - ''
+  - ''
+  - KP MINUS
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP MULTIPLY
+  - KP EQUAL
+  - ''
+  - KP 3
+  - KP 2
+  - KP 1
+  - KP 0
+  - ''
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP DIVIDE
+  - ENTER
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  'null': ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '']
