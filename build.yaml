@@ -20,3 +20,6 @@
 include:
   - board: nice_nano_v2
     shield: sliver42
+    artifact-name: sliver42_nn2
+  - board: planck_rev6
+    artifact-name: sliver42_planck
