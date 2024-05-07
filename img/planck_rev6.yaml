@@ -197,12 +197,12 @@ layers:
   - ''
   - ''
   numpad:
+  - BSPC
   - '0'
   - '9'
   - '8'
   - '7'
-  - ''
-  - ''
+  - KP PLUS
   - KP PLUS
   - '7'
   - '8'
@@ -210,11 +210,11 @@ layers:
   - '0'
   - BSPC
   - ''
+  - KP MULTIPLY
   - '6'
   - '5'
   - '4'
-  - ''
-  - ''
+  - KP MINUS
   - KP MINUS
   - '4'
   - '5'
@@ -222,11 +222,11 @@ layers:
   - KP MULTIPLY
   - KP EQUAL
   - ''
+  - KP DIVIDE
   - '3'
   - '2'
   - '1'
   - '0'
-  - ''
   - '0'
   - '1'
   - '2'

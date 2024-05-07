@@ -172,40 +172,40 @@ layers:
   - {type: held}
   - bt
   numpad:
-  - KP 0
-  - KP 9
-  - KP 8
-  - KP 7
-  - ''
-  - ''
+  - BSPC
+  - '0'
+  - '9'
+  - '8'
+  - '7'
   - KP PLUS
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP 0
+  - KP PLUS
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - BSPC
   - ''
-  - KP 6
-  - KP 5
-  - KP 4
-  - ''
-  - ''
+  - KP MULTIPLY
+  - '6'
+  - '5'
+  - '4'
   - KP MINUS
-  - KP 4
-  - KP 5
-  - KP 6
+  - KP MINUS
+  - '4'
+  - '5'
+  - '6'
   - KP MULTIPLY
   - KP EQUAL
   - ''
-  - KP 3
-  - KP 2
-  - KP 1
-  - KP 0
-  - ''
-  - KP 0
-  - KP 1
-  - KP 2
-  - KP 3
+  - KP DIVIDE
+  - '3'
+  - '2'
+  - '1'
+  - '0'
+  - '0'
+  - '1'
+  - '2'
+  - '3'
   - KP DIVIDE
   - ENTER
   - ''
