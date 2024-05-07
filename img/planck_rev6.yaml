@@ -202,8 +202,8 @@ layers:
   - END
   - PG DN
   - PG UP
-  - KP PLUS
   - ''
+  - KP PLUS
   - '7'
   - '8'
   - '9'
@@ -214,8 +214,8 @@ layers:
   - LEFT
   - UP
   - RIGHT
-  - KP MINUS
   - ''
+  - KP MINUS
   - '4'
   - '5'
   - '6'
@@ -226,7 +226,7 @@ layers:
   - ''
   - DOWN
   - ''
-  - '0'
+  - ''
   - '0'
   - '1'
   - '2'
