@@ -92,7 +92,7 @@ layers:
   - ''
   - ''
   - {type: held}
-  - {t: nav, h: toggle}
+  - {t: numpad, h: toggle}
   - BSPC
   - ''
   - ''
@@ -238,7 +238,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: numpad, h: toggle}
+  - {t: nav, h: toggle}
   - {type: held}
   - ''
   - ''
