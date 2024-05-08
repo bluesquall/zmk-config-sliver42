@@ -61,18 +61,18 @@ layers:
   - '}'
   - (
   - )
-  - ''
+  - BSPC
   - ESC
   - KP MULTIPLY
   - '6'
   - '5'
   - '4'
   - KP MINUS
+  - ''
   - LEFT
   - DOWN
   - UP
   - RIGHT
-  - ''
   - ''
   - ''
   - KP DIVIDE
@@ -85,7 +85,7 @@ layers:
   - <
   - '>'
   - ''
-  - ''
+  - ENTER
   - ''
   - ''
   - ''
@@ -142,7 +142,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  - ''
+  - DEL
   - ''
   - ''
   - ''
