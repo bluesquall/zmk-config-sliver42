@@ -34,10 +34,10 @@
 
         nav {
             bindings = <
-&kp BSPC  &kp N0           &kp N9  &kp N8  &kp N7  &kp KP_PLUS   &none        &kp LBRC  &kp RBRC  &kp LPAR   &kp RPAR  &none
-&none     &kp KP_MULTIPLY  &kp N6  &kp N5  &kp N4  &kp KP_MINUS  &kp LEFT     &kp DOWN  &kp UP    &kp RIGHT  &none     &none
-&none     &kp KP_DIVIDE    &kp N3  &kp N2  &kp N1  &kp N0        &kp LBKT     &kp RBKT  &kp LT    &kp GT     &none     &none
-&none     &none            &none   &none   &none   &tog 0        &tog L_NUMP  &kp BSPC  &none     &none      &none     &none
+&kp BSPC  &kp N0           &kp N9  &kp N8  &kp N7  &kp KP_PLUS   &none      &kp LBRC  &kp RBRC  &kp LPAR   &kp RPAR  &none
+&none     &kp KP_MULTIPLY  &kp N6  &kp N5  &kp N4  &kp KP_MINUS  &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &none     &none
+&none     &kp KP_DIVIDE    &kp N3  &kp N2  &kp N1  &kp N0        &kp LBKT   &kp RBKT  &kp LT    &kp GT     &none     &none
+&none     &none            &none   &none   &none   &trans         &kp ENTER  &kp BSPC  &none     &none      &none     &none     
             >;
         };
 
@@ -61,10 +61,10 @@
 
         numpad {
             bindings = <
-&none  &kp HOME  &kp END   &kp PG_DN  &kp PG_UP  &none       &kp KP_PLUS   &kp N7  &kp N8  &kp N9  &kp N0           &kp BSPC
-&none  &kp ESC   &kp LEFT  &kp UP     &kp RIGHT  &none       &kp KP_MINUS  &kp N4  &kp N5  &kp N6  &kp KP_MULTIPLY  &kp KP_EQUAL
-&none  &none     &none     &kp DOWN   &none      &none       &kp N0        &kp N1  &kp N2  &kp N3  &kp KP_DIVIDE    &kp ENTER
-&none  &none     &none     &none      &none      &tog L_NAV  &tog 0        &none   &none   &none   &none            &none
+&none  &kp HOME  &kp END   &kp PG_DN  &kp PG_UP  &kp KP_PLUS   &kp N7  &kp N8  &kp N9  &kp N0           &kp BSPC
+&none  &kp ESC   &kp LEFT  &kp UP     &kp RIGHT  &kp KP_MINUS  &kp N4  &kp N5  &kp N6  &kp KP_MULTIPLY  &kp KP_EQUAL
+&none  &none     &none     &kp DOWN   &none      &kp N0        &kp N1  &kp N2  &kp N3  &kp KP_DIVIDE    &kp ENTER
+&none  &none     &none     &none      &none      &none         &trans   &none  &none   &none            &none
             >;
         };
 
