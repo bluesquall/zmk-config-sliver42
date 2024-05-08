@@ -28,16 +28,16 @@
 &tog L_NUMP   &kp Q        &kp W  &kp E      &kp R          &kp T            &kp Y             &kp U            &kp I      &kp O    &kp P           &kp BSPC
 &kp ESC       &kp A        &kp S  &kp D      &kp F          &kp G            &kp H             &kp J            &kp K      &kp L    &kp SEMI        &kp SQT
 &kp LSHFT     &mt LCTRL Z  &kp X  &kp C      &kp V          &kp B            &kp N             &kp M            &kp COMMA  &kp DOT  &mt RALT SLASH  &kp ENTER
-&none         &none        &none  &kp LMETA  &lt L_SYM TAB  &lt L_NAV SPACE  &lt L_NUMP ENTER  &lt L_NUMR BSPC  &kp RMETA  &none    &none           &none
+&none         &none        &none  &kp LMETA  &lt L_SYM TAB  &mt LSHFT SPACE  &lt L_NAV ENTER   &lt L_NUMR BSPC  &kp RMETA  &none    &none           &none
             >;
         };
 
         nav {
             bindings = <
-&kp BSPC  &kp N0           &kp N9  &kp N8  &kp N7  &kp KP_PLUS   &none      &kp LBRC  &kp RBRC  &kp LPAR   &kp RPAR  &none
-&none     &kp KP_MULTIPLY  &kp N6  &kp N5  &kp N4  &kp KP_MINUS  &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &none     &none
-&none     &kp KP_DIVIDE    &kp N3  &kp N2  &kp N1  &kp N0        &kp LBKT   &kp RBKT  &kp LT    &kp GT     &none     &none
-&none     &none            &none   &none   &none   &trans        &kp ENTER  &kp BSPC  &none     &none      &none     &none     
+&none     &kp N0           &kp N9  &kp N8     &kp N7   &kp KP_PLUS   &none      &kp LBRC  &kp RBRC   &kp LPAR   &kp RPAR  &none
+&kp ESC   &kp KP_MULTIPLY  &kp N6  &kp N5     &kp N4   &kp KP_MINUS  &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &none     &none
+&none     &kp KP_DIVIDE    &kp N3  &kp N2     &kp N1   &kp N0        &kp LBKT   &kp RBKT  &kp LT     &kp GT     &none     &none
+&none     &none            &none   &kp LMETA  &kp TAB  &kp SPACE     &trans     &kp BSPC  &kp RMETA  &none      &none     &none     
             >;
         };
 
@@ -61,10 +61,10 @@
 
         numpad {
             bindings = <
-&tog L_NUMP  &kp HOME  &kp END   &kp PG_DN  &kp PG_UP  &none  &kp KP_PLUS   &kp N7  &kp N8  &kp N9  &kp N0           &kp BSPC
-&kp ESC      &none     &kp LEFT  &kp UP     &kp RIGHT  &none  &kp KP_MINUS  &kp N4  &kp N5  &kp N6  &kp KP_MULTIPLY  &kp KP_EQUAL
-&none        &none     &none     &kp DOWN   &none      &none  &kp N0        &kp N1  &kp N2  &kp N3  &kp KP_DIVIDE    &kp ENTER
-&none        &none     &none     &none      &none      &none  &trans        &none   &none   &none   &none            &none
+&tog L_NUMP  &kp HOME  &kp END   &kp PG_DN  &kp PG_UP  &none  &kp KP_PLUS   &kp N7    &kp N8  &kp N9  &kp N0           &kp BSPC
+&kp ESC      &none     &kp LEFT  &kp UP     &kp RIGHT  &none  &kp KP_MINUS  &kp N4    &kp N5  &kp N6  &kp KP_MULTIPLY  &kp KP_EQUAL
+&none        &none     &none     &kp DOWN   &none      &none  &kp N0        &kp N1    &kp N2  &kp N3  &kp KP_DIVIDE    &kp ENTER
+&none        &none     &none     &none      &none      &none  &kp ENTER     &kp BSPC  &none   &none   &none            &none
             >;
         };
 

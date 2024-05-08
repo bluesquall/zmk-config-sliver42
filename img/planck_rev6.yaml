@@ -42,15 +42,15 @@ layers:
   - ''
   - LMETA
   - {t: TAB, h: sym}
-  - {t: SPACE, h: nav}
-  - {t: ENTER, h: numpad}
+  - {t: SPACE, h: LSHFT}
+  - {t: ENTER, h: nav}
   - {t: BSPC, h: numrow}
   - RMETA
   - ''
   - ''
   - ''
   nav:
-  - BSPC
+  - ''
   - '0'
   - '9'
   - '8'
@@ -62,7 +62,7 @@ layers:
   - (
   - )
   - ''
-  - ''
+  - ESC
   - KP MULTIPLY
   - '6'
   - '5'
@@ -89,12 +89,12 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - LMETA
+  - TAB
+  - SPACE
   - {type: held}
-  - ENTER
   - BSPC
-  - ''
+  - RMETA
   - ''
   - ''
   - ''
@@ -239,8 +239,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
-  - ''
+  - ENTER
+  - BSPC
   - ''
   - ''
   - ''
