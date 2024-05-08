@@ -3,7 +3,14 @@
 [![Build ZMK firmware](https://github.com/bluesquall/zmk-config-sliver42/actions/workflows/build.yml/badge.svg)](https://github.com/bluesquall/zmk-config-sliver42/actions/workflows/build.yml)
 [![Draw ZMK keymaps](https://github.com/bluesquall/zmk-config-sliver42/actions/workflows/draw.yml/badge.svg)](https://github.com/bluesquall/zmk-config-sliver42/actions/workflows/draw.yml)
 
+# `sliver` keymap
 [![sliver42 keymap drawn as SVG](https://raw.githubusercontent.com/bluesquall/zmk-config-sliver42/main/img/sliver42.svg)](https://github.com/bluesquall/zmk-config-sliver42/raw/main/img/sliver42.svg)
+
+> Drawn with [Keymap Drawer](/caksoylar/keymap-drawer)
+
+# `sliver` keymap on Planck rev 6
+
+[![planck rev 6 keymap drawn as SVG](https://raw.githubusercontent.com/bluesquall/zmk-config-sliver42/main/img/planck_rev6.svg)](https://github.com/bluesquall/zmk-config-sliver42/raw/main/img/planck_rev6.svg)
 
 > Drawn with [Keymap Drawer](/caksoylar/keymap-drawer)
 _____________
