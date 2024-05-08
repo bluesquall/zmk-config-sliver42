@@ -43,7 +43,7 @@ layers:
   - LMETA
   - {t: TAB, h: sym}
   - {t: SPACE, h: LSHFT}
-  - {t: ENTER, h: nav}
+  - {t: ENTER, h: nav, s: _}
   - {t: BSPC, h: numrow}
   - RMETA
   - ''
@@ -181,9 +181,9 @@ layers:
   - F12
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - RCTRL
+  - RALT
+  - ENTER
   - ''
   - ''
   - ''
