@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: planck/rev6, qmk_layout: LAYOUT_ortho_4x12}
 layers:
   alfa:
-  - LEFT GUI
+  - {t: numpad, h: toggle}
   - Q
   - W
   - E
@@ -26,7 +26,7 @@ layers:
   - ;
   - ''''
   - LSHFT
-  - {t: Z, h: LEFT SHIFT}
+  - {t: Z, h: LCTRL}
   - X
   - C
   - V
@@ -35,17 +35,17 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: RIGHT SHIFT}
+  - {t: /, h: RALT}
   - ENTER
   - ''
   - ''
   - ''
-  - LCTRL
+  - LMETA
   - {t: TAB, h: sym}
   - {t: SPACE, h: nav}
   - {t: ENTER, h: numpad}
   - {t: BSPC, h: numrow}
-  - RCTRL
+  - RMETA
   - ''
   - ''
   - ''
@@ -197,7 +197,7 @@ layers:
   - ''
   - ''
   numpad:
-  - ''
+  - {t: numpad, h: toggle}
   - HOME
   - END
   - PG DN
@@ -209,8 +209,8 @@ layers:
   - '9'
   - '0'
   - BSPC
-  - ''
   - ESC
+  - ''
   - LEFT
   - UP
   - RIGHT
