@@ -45,7 +45,7 @@
             bindings = <
 &kp TILDE   &kp EXCL   &kp AT     &kp HASH       &kp DOLLAR     &kp PERCENT  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR   &kp BSPC
 &none       &kp RC(Z)  &kp RC(X)  &kp RC(C)      &kp RC(V)      &kp RC(Y)    &none      &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC   &kp PIPE
-&sys_reset  &none      &none      &kp RC(RS(C))  &kp RC(RS(V))  &none        &kp LBKT   &kp RBKT   &kp LT     &kp GT    &kp QMARK  &none
+&sys_reset  &none      &none      &kp RC(RS(C))  &kp RC(RS(V))  &kp RC(B)    &kp LBKT   &kp RBKT   &kp LT     &kp GT    &kp QMARK  &none
 &none       &none      &none      &none          &trans         &none        &none      &none      &none      &none     &none      &none
             >;
         };
