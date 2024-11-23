@@ -61,7 +61,7 @@ layers:
   - '}'
   - (
   - )
-  - BSPC
+  - ''
   - ESC
   - KP MULTIPLY
   - '6'
@@ -93,7 +93,7 @@ layers:
   - TAB
   - SPACE
   - {type: held}
-  - BSPC
+  - DEL
   - RMETA
   - ''
   - ''
@@ -142,7 +142,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  - DEL
+  - BSPC
   - ''
   - ''
   - ''
