@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BSPC
+  - ''
   - ESC
   - A
   - S
@@ -110,7 +110,7 @@ layers:
   - '*'
   - (
   - )
-  - BSPC
+  - ''
   - ''
   - Ctl+ Z
   - Ctl+ X
@@ -159,7 +159,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BSPC
+  - ''
   - ESC
   - F1
   - F2
@@ -220,7 +220,7 @@ layers:
   - '5'
   - '6'
   - KP MULTIPLY
-  - KP EQUAL
+  - ''
   - ''
   - ''
   - ''
@@ -232,7 +232,7 @@ layers:
   - '2'
   - '3'
   - KP DIVIDE
-  - ENTER
+  - ''
   - ''
   - ''
   - ''
@@ -241,7 +241,7 @@ layers:
   - SPACE
   - ENTER
   - BSPC
-  - ''
+  - KP EQUAL
   - ''
   - ''
   - ''
