@@ -220,7 +220,7 @@ layers:
   - '5'
   - '6'
   - KP MULTIPLY
-  - KP EQUAL
+  - ''
   - ''
   - ''
   - ''
@@ -232,7 +232,7 @@ layers:
   - '2'
   - '3'
   - KP DIVIDE
-  - ENTER
+  - ''
   - ''
   - ''
   - ''
@@ -241,7 +241,7 @@ layers:
   - SPACE
   - ENTER
   - BSPC
-  - ''
+  - KP EQUAL
   - ''
   - ''
   - ''
