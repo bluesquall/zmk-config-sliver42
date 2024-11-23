@@ -1,7 +1,7 @@
-layout: {qmk_keyboard: planck/rev6, qmk_layout: LAYOUT_ortho_4x12}
+layout: {qmk_keyboard: planck/rev6, layout_name: LAYOUT_ortho_4x12}
 layers:
   alfa:
-  - {t: numpad, h: toggle}
+  - ''
   - Q
   - W
   - E
@@ -44,7 +44,7 @@ layers:
   - {t: TAB, h: sym}
   - {t: SPACE, h: LSHFT}
   - {t: ENTER, h: nav, s: _}
-  - {t: BSPC, h: numrow}
+  - numrow
   - RMETA
   - ''
   - ''
@@ -61,7 +61,7 @@ layers:
   - '}'
   - (
   - )
-  - BSPC
+  - ''
   - ESC
   - KP MULTIPLY
   - '6'
@@ -93,7 +93,7 @@ layers:
   - TAB
   - SPACE
   - {type: held}
-  - BSPC
+  - DEL
   - RMETA
   - ''
   - ''
@@ -142,7 +142,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  - DEL
+  - BSPC
   - ''
   - ''
   - ''
@@ -180,15 +180,15 @@ layers:
   - F11
   - F12
   - ''
-  - ''
-  - RCTRL
+  - ','
+  - .
   - RALT
   - ENTER
   - ''
   - ''
   - ''
   - ''
-  - ''
+  - {t: numpad, h: toggle}
   - ''
   - ''
   - {type: held}
@@ -197,7 +197,7 @@ layers:
   - ''
   - ''
   numpad:
-  - {t: numpad, h: toggle}
+  - ''
   - HOME
   - END
   - PG DN
@@ -208,8 +208,8 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BSPC
-  - ESC
+  - ''
+  - ''
   - ''
   - LEFT
   - UP
@@ -237,8 +237,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - {t: numpad, h: toggle}
+  - SPACE
   - ENTER
   - BSPC
   - ''
