@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: sliver42}
 layers:
   alfa:
   - LEFT GUI
@@ -99,11 +100,11 @@ layers:
   - )
   - BSPC
   - ''
-  - Ctl+ Z
-  - Ctl+ X
-  - Ctl+ C
-  - Ctl+ V
-  - Ctl+ Y
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+Y
   - ''
   - _
   - +
@@ -113,8 +114,8 @@ layers:
   - '&sys_reset'
   - ''
   - ''
-  - Ctl+Sft+ C
-  - Ctl+Sft+ V
+  - Ctl+Sft+C
+  - Ctl+Sft+V
   - ''
   - '['
   - ']'

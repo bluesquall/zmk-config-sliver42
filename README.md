@@ -34,4 +34,3 @@ _____________
 [peppers-34]: https://peppe.rs/posts/programming_on_34_keys/
 [gh-miryoku-zmk]: https://github.com/manna-harbour/miryoku_zmk
 [gh-minusfive-knucklehead]: https://github.com/minusfive/zmk-config
-
