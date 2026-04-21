@@ -94,7 +94,7 @@ layers:
   - TAB
   - {type: held}
   - ''
-  - Ctl+AltGr+DEL
+  - Ctl+Alt+DEL
   - ''
   - ''
   - ''
@@ -142,7 +142,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  - ''
+  - ESC
   - ''
   - ''
   - ''
@@ -179,7 +179,7 @@ layers:
   - F10
   - F11
   - F12
-  - ''
+  - RCTRL
   - ','
   - .
   - RALT
@@ -188,7 +188,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - ESC
   - ''
   - ''
   - {type: held}
