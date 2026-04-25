@@ -11,7 +11,6 @@
 #define L_NAV 1
 #define L_SYM 2
 #define L_NUMR 3
-#define L_NUMP 4
 #define L_NULL 8
 
 / {
@@ -62,15 +61,6 @@
 &none  &none  &none  &none  &none  &none   &kp TILDE   &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &none
 &none  &none  &none  &none  &none  &none   &kp GRAVE  &kp RCTRL      &kp COMMA  &kp DOT    &kp RALT  &none
 &none      &none   &none   &none   &kp ESC  &none    &none    &trans     &none      &none      &none     &none
-            >;
-        };
-
-        numpad {
-            bindings = <
-&none        &kp HOME  &kp END   &kp PG_DN  &kp PG_UP    &none      &kp KP_PLUS   &kp N7    &kp N8  &kp N9  &kp N0           &none
-&tog L_NUMP        &none     &kp LEFT  &kp UP     &kp RIGHT    &none      &kp KP_MINUS  &kp N4    &kp N5  &kp N6  &kp KP_MULTIPLY  &none
-&none        &none     &none     &kp DOWN   &none        &none      &kp N0        &kp N1    &kp N2  &kp N3  &kp KP_DIVIDE    &none
-&none        &none     &none     &none      &tog L_NUMP  &kp SPACE  &kp ENTER     &kp BSPC  &kp KP_EQUAL   &none   &none            &none
             >;
         };
 
