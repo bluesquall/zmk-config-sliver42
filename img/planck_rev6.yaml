@@ -188,7 +188,7 @@ layers:
   - ''
   - ''
   - ''
-  - ESC
+  - BSPC
   - _
   - ''
   - {type: held}
