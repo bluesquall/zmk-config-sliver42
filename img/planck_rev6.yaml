@@ -23,7 +23,7 @@ layers:
   - J
   - K
   - L
-  - ;
+  - {t: ;, h: RSHFT}
   - ''
   - ''
   - {t: Z, h: LCTRL}
@@ -40,7 +40,7 @@ layers:
   - ''
   - ''
   - ''
-  - LMETA
+  - {t: ESC, h: LMETA}
   - {t: BSPC, h: sym}
   - SPACE
   - {t: ENTER, h: nav}
