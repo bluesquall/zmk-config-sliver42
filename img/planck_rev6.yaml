@@ -14,7 +14,7 @@ layers:
   - P
   - ''
   - ''
-  - A
+  - {t: A, h: LSHFT}
   - S
   - D
   - F
@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - ;
-  - '&nonr'
+  - ''
   - ''
   - {t: Z, h: LCTRL}
   - X
@@ -42,9 +42,9 @@ layers:
   - ''
   - LMETA
   - {t: BSPC, h: sym}
-  - {t: SPACE, h: LSHFT}
+  - SPACE
   - {t: ENTER, h: nav, s: _}
-  - numrow
+  - {t: TAB, h: numrow}
   - ''
   - ''
   - ''
@@ -91,7 +91,7 @@ layers:
   - ''
   - ''
   - ''
-  - TAB
+  - ''
   - {type: held}
   - ''
   - Ctl+Alt+DEL
